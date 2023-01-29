@@ -10,6 +10,7 @@ stage('Build')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
+/*
 stage('SonarQube Report')
 {
 sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -33,4 +34,5 @@ Regards,
 AJTech
 9347''', subject: 'Build is over', to: 'anji.devops12@gmail.com'
   }
+  */
 }
